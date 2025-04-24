@@ -35,7 +35,7 @@
 
 using namespace TechDrawGui;
 
-#if 0// needed for Qt's lupdate utility
+#if 0  // needed for Qt's lupdate utility
     qApp->translate("Workbench", "Dimensions");
     qApp->translate("Workbench", "Extensions: Attributes/Modifications");
     qApp->translate("Workbench", "Extensions: Centerlines/Threading");
@@ -218,6 +218,7 @@ Gui::MenuItem* Workbench::setupMenuBar() const
     *views << "TechDraw_BrokenView";
     *views << "TechDraw_SectionView";
     *views << "TechDraw_ComplexSection";
+    *views << "TechDraw_HoleBreakout";
     *views << "TechDraw_DetailView";
     *views << "TechDraw_ProjectionGroup";
     *views << "TechDraw_ClipGroup";

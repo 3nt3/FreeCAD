@@ -70,7 +70,6 @@ set(TechDrawGui_UIC_SRCS
     TaskComplexSection.ui
     TaskDimRepair.ui
     TaskCosmeticCircle.ui
-
 )
 
 SET(MRTE_SRCS
@@ -215,6 +214,9 @@ SET(TechDrawGui_SRCS
     TaskCosmeticCircle.cpp
     TaskCosmeticCircle.h
     TaskCosmeticCircle.ui
+    TaskHoleBreakout.cpp
+    TaskHoleBreakout.h
+    TaskHoleBreakout.ui
     TechDrawHandler.cpp
     TechDrawHandler.h
     Widgets/CompassDialWidget.cpp
